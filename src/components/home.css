@@ -1,0 +1,71 @@
+ .home-background  {
+    background-image: url(https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size:cover;
+    height: 100vh;
+    position:relative;
+
+}
+.menu{
+    padding:30px;
+}
+
+.info{
+    background-image: url(https://i.pinimg.com/originals/e2/29/36/e2293649bcd1f1c64c350042bae05d6c.png);
+    background-size: 0%;
+    position:absolute;
+    margin-top:10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    margin-left: 25%    ;
+    border-radius: 30px;
+    padding: 0%
+}
+
+.infoLog{
+    margin-top:30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.infoSig{
+    margin-top:30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.info h2{
+    padding: 0px
+;}
+
+.info h1{
+    margin-top: 10px;
+    padding: 0%
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.btnLog {
+    margin-right: 30px;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

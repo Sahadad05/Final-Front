@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+}
+
+.panel {
+    width: 200px;
+    height: 100vw;
+    text-align: left;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.flex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+  .flex3 {
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .flexdiego {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      width: 30vw;
+      margin-left: -200px;
+    
+    }
+
+  .flexdiego * {
+      width: 100%
+  }
