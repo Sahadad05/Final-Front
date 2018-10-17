@@ -17,10 +17,10 @@ class GuestMenu extends Component {
     let path = this.props.location.pathname.split('/').slice(0,-1).join('/')
     return (
       <div className={styles.panel}>
-        <Menu mode='inline' theme='light' defaultSelectedKeys={[this.props.location.pathname]} defaultOpenKeys={[path]} style={{height:'100vh'}}>
+        <Menu mode='inline' theme='light' defaultSelectedKeys={[this.props.location.pathname]} defaultOpenKeys={[path]} style={{width:'230px',height:'100vh'}}>
           
           <Menu.Item style={{height:'auto',textAlign:'center',marginTop:'50px',marginBottom:'50px'}} disabled={true}>
-            <img src={logo} alt="logo" width='80%'/>
+            <img src={logo} alt="logo" width='80%' style={{borderRadius:'150%'}}/>
           </Menu.Item>
           
           <Menu.Item key='/guest/profile'>
@@ -32,6 +32,12 @@ class GuestMenu extends Component {
           <Menu.Item key='/guest/info'>
             <Link to='/guest/info'>
               <Icon type="info" theme="outlined" /><span>Info</span>
+            </Link>
+          </Menu.Item>
+
+           <Menu.Item key='/guest/table'>
+            <Link to='/guest/table'>
+              <Icon type="environment" theme="outlined"/><span>Tables</span>
             </Link>
           </Menu.Item>
   

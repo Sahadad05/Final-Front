@@ -15,10 +15,11 @@ class GuestPlaylistDisplay extends Component {
       position: 0,
       duration: 0,
     };
+    this.playerCheckInterval = null;
   }
 
-
 render() {
+
   const {
     token,
     loggedIn,

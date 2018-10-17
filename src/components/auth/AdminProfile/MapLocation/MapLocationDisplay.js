@@ -1,16 +1,17 @@
 import React from 'react'
 import {Input,Button} from 'antd'
 import MapLocationS from './MapLocationS'
-
+// import style from '../MapLocation/MapLocation.css'
 const Location = ({onSubmit,onChange}) =>{
 
     return (
         <div>
-            <form onSubmit = {onSubmit} style={{width:600,margin:'0 auto',padding:20}}>
+            <div>
+            <form onSubmit = {onSubmit} style={{width:600, margin:'0 0 0 55%',padding:20}}>
             <h1>Ubicación</h1>
             <p>
                    <Input 
-                   name="title"
+                   name="placeName"
                    placeholder="Lugar (Salón, Iglesia, Jardín"
                    type="text"
                    onChange={onChange} 
@@ -29,7 +30,9 @@ const Location = ({onSubmit,onChange}) =>{
             </form>
             <br/>
             <MapLocationS/>
-        </div>
+            </div>
+            </div>
+        
 )}
 
 export default Location

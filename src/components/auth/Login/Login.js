@@ -48,8 +48,8 @@ class Login extends Component{
     render(){
         const {auth, loading} = this.state
         return(
-            <div className="home-background">
-            <form className='infoLog' onSubmit={this.login}>
+            <div className="background">
+            <form  className='infoLog' onSubmit={this.login}>
                 <h2>Inicia sesión</h2>
                  
                 <p>

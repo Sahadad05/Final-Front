@@ -49,12 +49,12 @@ class GoogleMapsContainer extends Component {
         google = { this.props.google }
         onClick = { this.onMapClick }
         zoom = { 14 }
-        initialCenter = {{ lat: 40.648307, lng: -85.711185 }}
+        initialCenter = {{ lat: 19.3977655, lng: -99.1735841, }}
       >
         <Marker
           onClick = { this.onMarkerClick }
           title = { 'Changing Colors Garage' }
-          position = {{ lat: 40.648307, lng: -85.711185 }}
+          position = {{ lat: 19.3977655, lng: -99.1735841 }}
           name = { 'Changing Colors Garage' }
         />
         <InfoWindow

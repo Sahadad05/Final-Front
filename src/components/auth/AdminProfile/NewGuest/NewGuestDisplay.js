@@ -1,5 +1,6 @@
 import React from 'react'
 import {Input, Button} from 'antd'
+import styles from '../Styles.module.css'
 //import {sendUsers} from '../../../../services/userService';
 
 
@@ -7,9 +8,11 @@ const {TextArea} = Input
 
 const NewGuestDisplay = ({sendUsers, loading, handleChange}) =>{
   return(
-    <div>
+    <div >
       <form
-      onSubmit={sendUsers} >
+      onSubmit={sendUsers} 
+      >
+
 
         <h1>Agregar Invitados</h1>
 

@@ -17,7 +17,7 @@ class ProfileMenu extends Component {
     let path = this.props.location.pathname.split('/').slice(0,-1).join('/')
     return (
       <div className={styles.panel}>
-        <Menu mode='inline' theme='light' defaultSelectedKeys={[this.props.location.pathname]} defaultOpenKeys={[path]} style={{height:'100vh'}}>
+        <Menu mode='inline' theme='light' defaultSelectedKeys={[this.props.location.pathname]} defaultOpenKeys={[path]} style={{width:'230px',height:'100vh'}}>
           
           <Menu.Item style={{height:'auto',textAlign:'center',marginTop:'50px',marginBottom:'50px'}} disabled={true}>
             <img src={logo} alt="logo" width='80%'/>

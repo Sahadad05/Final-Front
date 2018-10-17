@@ -1,22 +1,62 @@
 .container {
     display: flex;
+    /* background-size:200px 200px; */
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-content: center;    
+    min-height: 100vh;
+    background-image: url(../../../images/elegan.png)
 }
 
+/* .container:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(240, 233, 233);
+    opacity: 0.9;
+} */
+
+
 .panel {
-    width: 200px;
-    height: 100vw;
+    width: 230px;
     text-align: left;
     max-width: 200px;
     min-width: 200px;
+    opacity: .8;
+    min-height: 100vh;
+    background-color: #C4AFB3;
+    box-shadow: 30px 0 9px 5px #40384B;
+    z-index: 1;
 }
 
+/* descriptionx */
 .flex {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+    z-index: 1;
+    margin-left: -100px
+}
+
+.flex20 {
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 50px;
+    opacity: .9;
+    justify-items: center;
 }
 
 .map-google {
@@ -27,9 +67,92 @@
 
   .flex2 {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    /* margin-top: 10px; */
+    margin-right: 150px;
+    opacity: .9;
+    margin-top: 30px
+}
+
+.fotito{
+    width: 300px;
+    height: 400px;
+  }
+
+.tarjeta {
+  width: 400px;
+  
+}
+
+.fotito2{
+    width:650px;
+    height: 400px;
+  }
+
+.tarjeta2 {
+  width: 800px;
+  opacity: .7;
+  
+}
+
+  .flexd {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      width: 30vw;
+      margin-left: -250px;
+      z-index: 1;
+    
+    }
+
+  .flexd * {
+      width: 100%;
+  }
+
+.flex4{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-right: 50px;
+    opacity: .9;
+    justify-items: center;
+    z-index: 1;
+}
+.reloj{
+    background-color: aquamarine;
+}
+
+
+ .flex5{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column; 
+        z-index: 1;
+        padding: 0;
+    
+ }
+
+
+ .flexG {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* margin-top: 10px; */
+    margin-right: 200px;
+    opacity: .9;
 }

@@ -1,44 +1,137 @@
 .container {
     display: flex;
+    /* background-size:200px 200px; */
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-content: center;    
+    min-height: 100vh;
+    background-image: url(../../../images/elegan.png)
 }
 
+/* .container:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(240, 233, 233);
+    opacity: 0.5;
+} */
+
+
+/* Panel Menu */
 .panel {
-    width: 200px;
-    height: 100vw;
+    width: 230px;
     text-align: left;
     max-width: 200px;
     min-width: 200px;
+    opacity: .8;
+    min-height: 100vh;
+    background-color: #C4AFB3;
+    box-shadow: 30px 0 9px 5px #40384B;
+    z-index: 1;
 }
 
+
+/* Perfil */
 .flex {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
-
+    z-index: 1;
+    margin-left: -100px
 }
 
-  .flex3 {
-    margin-top: 20px;
+  /* .flex3 {
+    margin-top: 10px;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-right: 150px;
+    opacity: .9;
+    z-index: 1;
+    
+  } */
+  
+  .ant-card-body{
+    background-color: rgba(64, 56, 75, 0.616);
   }
-  .flexdiego {
-      margin-top: 50px;
+
+/* 
+  .flexd {
+      margin-top: 100px;
       display: flex;
       align-items: center;
       justify-items: center;
       width: 30vw;
-      margin-left: -200px;
+      margin-left: -250px;
+      z-index: 1;
     
     }
 
-  .flexdiego * {
-      width: 100%
+  .flexd * {
+      width: 100%;
+  } */
+
+
+  /* Info cards */
+.flex4{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-right: 50px;
+    /* opacity: .9; */
+    justify-items: center;
+    z-index: 1;
+}
+
+/* Foto de perfil */
+  .fotito{
+      width: 300px;
+      height: 400px;
+    }
+
+  .tarjeta {
+    width: 400px;
   }
+
+  /* lista de invitados */
+ .tabla {
+     z-index: 1;
+     width: 745px;
+     padding-top: 30px;
+     margin-left: 250px;
+     background-color: rgba(240, 239, 238, 0.514);
+     border-radius: 5%;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-top: 50px
+
+
+ }
+/* Info time picker */
+ .flex5{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column; 
+        z-index: 1;
+        margin-left: -80px;
+        opacity: .9;
+    
+ }
+

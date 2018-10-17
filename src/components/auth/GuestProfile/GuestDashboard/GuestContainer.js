@@ -15,7 +15,9 @@ class GuestContainer extends React.Component {
     return (
       <div className={styles.container}>
         <GuestMenu {...this.props}/>
+        <div style={{zIndex: 1}}>
         <GuestRoutes/>
+      </div>
       </div>
     )
   }

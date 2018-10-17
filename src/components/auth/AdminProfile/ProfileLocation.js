@@ -23,7 +23,7 @@ export default class ErgosMap extends Component {
     const allScripts = document.getElementsByTagName( 'script' );
     [].filter.call(
       allScripts,
-      ( scpt ) => scpt.src.indexOf( 'key=AIzaSyDE2XTOO3mc5CnZSdVG0xVfs8L9DidM__0' ) >= 0
+      ( scpt ) => scpt.src.indexOf( 'key=AIzaSyD0iBJ86eZUGkhbuWhS7b4_B3-8cRYQgTQ' ) >= 0
     )[ 0 ].remove();
     window.google = {};
   }

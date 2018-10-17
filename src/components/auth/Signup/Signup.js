@@ -28,9 +28,11 @@ class Signup extends Component{
         const {user} = this.state
         axios.post('http://localhost:3000/auth/signup', user)
         .then(user=>{
+          this.props.history.push('/login')
         console.log(user)
         
         })
+        .catch(err => console.log(err))
       }
     });
   }
@@ -95,9 +97,8 @@ class Signup extends Component{
       };
 
   return (
-    <div className="home-background">
-
-    <Form onSubmit={this.handleSubmit} className='infoSig'>
+    <div className="background">
+      <Form className="infoSig" onSubmit={this.handleSubmit}>
         <h1>Regístrate</h1>
         
     <Form.Item {...formItemLayout} label="Nombre">
@@ -171,6 +172,8 @@ class Signup extends Component{
             </Form.Item>
           </Form>
           </div>
+
+          
         );
       }
     } 

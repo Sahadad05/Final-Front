@@ -17,9 +17,9 @@ class GuestMusic extends Component {
       <div>
         <GuestPlaylistContainer/>
       <div className={styles.flex}>
-        <Card hoverable={true} title='Music'>
+        {/* <Card hoverable={true} title='Music'>
           <img src={user.photoURL || logo} alt="profile_picture" width='20%'/>
-        </Card>
+        </Card> */}
       </div>
       </div>
     )

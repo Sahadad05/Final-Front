@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.ant-card {
+  border-radius: 5% !important;
+}
+
+.ant-card-body{
+  /* background-color: rgba(64, 56, 75, 0.336); */
+  padding: 1% 0 0 0 !important;
+}

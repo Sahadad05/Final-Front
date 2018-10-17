@@ -1,5 +1,6 @@
 import React from 'react'
 import {Table} from 'antd'
+import '../../AdminProfile/Styles.module.css'
 
 const GuestListDisplay = ({columns, data}) =>{
   return(

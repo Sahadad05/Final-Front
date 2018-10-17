@@ -1,10 +1,9 @@
-import PropTypes from "prop-types"
 import React from "react"
 import ReactGoogleMapLoader from "react-google-maps-loader"
 import ReactGooglePlacesSuggest from "react-google-places-suggest"
 
 
-const API_KEY = "AIzaSyDE2XTOO3mc5CnZSdVG0xVfs8L9DidM__0"
+const API_KEY = "AIzaSyD0iBJ86eZUGkhbuWhS7b4_B3-8cRYQgTQ"
 
 class GoogleSuggest extends React.Component {
   state = {
@@ -65,8 +64,6 @@ class GoogleSuggest extends React.Component {
   }
 }
 
-GoogleSuggest.propTypes = {
-  googleMaps: PropTypes.object,
-}
+
 
 export default GoogleSuggest

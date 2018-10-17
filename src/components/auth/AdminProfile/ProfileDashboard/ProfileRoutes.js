@@ -13,6 +13,7 @@ class ProfileRoutes extends React.Component {
     return (
       <Switch>
         <Route path='/user/profile' component={ProfileDescription} />
+        <Route exact path='/user/' component={() => <img src={require('../../../../images/love.jpg')} alt='shit' width='1205px' height='733px' style={{marginLeft:'35px'}}/>} />
         <Route path='/user/guests' component={GuestListContainer} />
         <Route path='/user/location' component={MapLocationContainer} />
         <Route path='/user/info' component={ProfileInfo} />

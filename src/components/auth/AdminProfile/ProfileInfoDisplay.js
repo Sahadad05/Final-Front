@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, DatePicker, TimePicker, Button, Card } from 'antd';
-
+// import styles from '../AdminProfile/Styles.module.css'
 const FormItem = Form.Item;
 
 class TimeRelatedForm extends React.Component {
@@ -39,8 +39,9 @@ class TimeRelatedForm extends React.Component {
       rules: [{ type: 'object', required: true, message: 'Please select time!' }],
     };
     return (
-      <Card>
-      <Form onSubmit={this.handleSubmit}>
+      <Card >
+      <Form onSubmit={this.handleSubmit}
+      style={{marginLeft:'15px', marginRight:'15px', marginTop:'10px'}}>
         <FormItem
           {...formItemLayout}
           label="DatePicker"

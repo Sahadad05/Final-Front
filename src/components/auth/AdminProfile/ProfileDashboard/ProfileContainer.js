@@ -13,9 +13,13 @@ class ProfileContainer extends React.Component {
 
   render() {
     return (
-      <div className={styles.container}>
-          <ProfileMenu {...this.props}/>
+      <div className={styles.container} >
+          <ProfileMenu {...this.props} />
+          <div style={{zIndex: 1}}>
           <ProfileRoutes/>
+          <div >
+      </div>
+      </div>
       </div>
     )
   }
